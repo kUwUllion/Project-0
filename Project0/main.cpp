@@ -1,8 +1,8 @@
 #include "common.hpp"
+#include "Tools/RessourceManager.hpp"
 
 int main(void)
 {
-
 #ifdef DEBUG
 	sf::RenderWindow window(sf::VideoMode({SCREEN_WIDTH / 3 * 2 , SCREEN_HEIGH / 3 * 2}), "Project0");
 #else

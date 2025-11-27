@@ -137,6 +137,10 @@
   <ItemGroup>
     <ClCompile Include="common.hpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Tools\RessourceManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tools\RessourceManager.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

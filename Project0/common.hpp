@@ -9,7 +9,7 @@
 #include <SFML/Graphics.hpp>
 
 // place this line in comment if u want the "release" vesrion
-//#define DEBUG
+#define DEBUG
 
 #ifdef DEBUG
 
