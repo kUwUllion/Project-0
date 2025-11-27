@@ -11,19 +11,45 @@
 
 #include "json/json.h"
 
+
+
 class ResourcesManager
 {
 public:
+	enum ResourceType
+	{
+		UNKNOWN = -1,
 
-	ResourcesManager();
+		TEXTURE,
+		IMAGE,
+		SOUNDBUFFER,
+		FONT,
 
-	~ResourcesManager();
+		RESOURCES_TYPE
+	};
 
+	ResourcesManager(void);
+	~ResourcesManager(void);
+
+	void LoadResource(std::string _path, std::string _name, ResourceType _type);
+
+	void* GetResource(std::string _name);
 
 
 
 private:
 
+	struct Resource
+	{
+		std::shared_ptr<void> resource;
+		ResourceType type = UNKNOWN;
+	};
+
+	std::map<std::string, std::shared_ptr<Resource>> m_resourceMap;
+
+
+	bool IsResourceNameAlreadyUsed(std::string _name);
+	void LoadDefaultResources(void);
 };
 
 
