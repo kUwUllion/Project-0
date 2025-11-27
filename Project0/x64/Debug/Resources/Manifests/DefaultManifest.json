@@ -1,0 +1,20 @@
+{
+    "Resources" : 
+    [
+        {
+            "name" : "defaultTexture",
+            "type" : 1,
+            "path" : "Resources/DefaultResources/DefaultTexture.png"
+        },
+        {
+            "name" : "defaultFont",
+            "type" : 3,
+            "path" : "Resources/DefaultResources/DefaultFont.ttf"
+        },
+        {
+            "name" : "defaultSound",
+            "type" : 2,
+            "path" : "Resources/DefaultResources/DefaultSound.mp3"
+        }
+    ]
+}

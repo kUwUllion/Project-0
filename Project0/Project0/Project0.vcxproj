@@ -137,10 +137,11 @@
   <ItemGroup>
     <ClCompile Include="common.hpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Tools\RessourceManager.cpp" />
+    <ClCompile Include="Tools\jsoncpp.cpp" />
+    <ClCompile Include="Tools\ResourcesManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Tools\RessourceManager.hpp" />
+    <ClInclude Include="Tools\ResourcesManager.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,12 +21,15 @@
     <ClCompile Include="common.hpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Tools\RessourceManager.cpp">
+    <ClCompile Include="Tools\ResourcesManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\jsoncpp.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Tools\RessourceManager.hpp">
+    <ClInclude Include="Tools\ResourcesManager.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

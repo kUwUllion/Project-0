@@ -1,5 +1,5 @@
 #include "common.hpp"
-#include "Tools/RessourceManager.hpp"
+#include "Tools/ResourcesManager.hpp"
 
 int main(void)
 {
@@ -8,6 +8,7 @@ int main(void)
 #else
 	sf::RenderWindow window(sf::VideoMode::getDesktopMode(), "Project0", sf::State::Fullscreen);
 #endif // DEBUG
+
 
 	while (window.isOpen())
 	{
@@ -24,8 +25,6 @@ int main(void)
 
 	}
 	
-
-
 
 	return EXIT_SUCCESS;
 }
